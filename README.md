@@ -12,11 +12,23 @@
 - 🍊 Orange Pi 5 Plus — энкодинг H.265 + отправка SRT
 - 📡 2× модема (Fibocom T77W968 Cat 16 + L850-GL Cat 9) на M.2 → USB 3.0 адаптерах
 - 🔌 USB-хаб RSHTECH 13 портов (12V/3A)
-- 📺 UVC-HDMI конвертер
-- 🎥 PiP-микшер FEELWORLD CAMKOO H2U
+- 🎬 Sony HDR-AS300 — основная камера (HDMI)
+- 🔍 USB-эндоскоп / мини-камера — PiP в углу
+- 📺 UVC-HDMI конвертер (USB-камера → HDMI)
+- 🎥 PiP-микшер FEELWORLD CAMKOO H2U (объединяет 2 HDMI)
 - 🔋 Anker 737 (140W) + Wattico Airbank (27000 мАч)
 
 **Битрейт стрима:** 12000 кбит/с (~6 Мбит/с на модем)
+
+**Сигнальная цепь:**
+```
+Sony AS300 ────────────────────────HDMI──────►┐
+                                              ├──► FEELWORLD H2U ──HDMI──► Orange Pi 5 Plus
+USB-эндоскоп ──USB──► UVC-HDMI ──HDMI────────►┘    (PiP-микшер)         (HDMI IN, энкод, SRT)
+                                                                              │
+                                                                              ▼
+                                                                  belabox-receiver (дом)
+```
 
 📄 [Потребление и автономия →](./Setup%201/Потребление.md)
 
