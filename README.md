@@ -13,7 +13,7 @@
 **Состав:**
 - 🍊 Orange Pi 5 Plus — энкодинг H.265 + отправка SRT (выполняется фирмварой belabox)
 - 📡 2× модема (Fibocom T77W968 Cat 16 + L850-GL Cat 9) на M.2 → USB 3.0 адаптерах
-- 🔌 USB-хаб RSHTECH 13 портов (12V/3A)
+- 🔌 USB-хаб ORICO 10 портов USB 3.0 (12V/3A)
 - 🎬 Sony HDR-AS300 — основная камера (HDMI)
 - 🔍 USB-эндоскоп / мини-камера — PiP в углу
 - 📺 UVC-HDMI конвертер (USB-камера → HDMI)

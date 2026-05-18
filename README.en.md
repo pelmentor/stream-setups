@@ -13,7 +13,7 @@ Basic mobile rig for streaming over two LTE modems with bonding on a belabox-rec
 **Components:**
 - 🍊 Orange Pi 5 Plus — H.265 encoding + SRT output (handled by belabox firmware)
 - 📡 2× modems (Fibocom T77W968 Cat 16 + L850-GL Cat 9) on M.2 → USB 3.0 adapters
-- 🔌 USB hub RSHTECH 13 ports (12V/3A)
+- 🔌 USB hub ORICO USB 3.0 10 ports (12V/3A)
 - 🎬 Sony HDR-AS300 — main camera (HDMI)
 - 🔍 USB endoscope / mini camera — PiP in the corner
 - 📺 UVC-HDMI converter (USB camera → HDMI)
