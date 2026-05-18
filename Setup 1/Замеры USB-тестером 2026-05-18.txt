@@ -4,14 +4,14 @@
 
 ═══════════════════════════════════════════════
 Wattico Airbank:
-  С1:  3.54W  — USB HUB (через PD-кабель USB-C → DC barrel 12V)
-  С2:  1.61W  — UVC-HDMI Converter (USB-C ↔ USB-C 5V)
-  A:   2.85W  — PiP (FEELWORLD CAMKOO H2U)
+  С1:  1.66W-5W  — USB HUB (через PD-кабель USB-C → DC barrel 12V)
+  С2:  1.61W-1.94W  — UVC-HDMI Converter (USB-C ↔ USB-C 5V)
+  A:   2.85W-2.93W  — PiP (FEELWORLD CAMKOO H2U)
   ──────
   Σ:   8.00W
 
 Anker 737:
-  C1:  3.60W  — Orange Pi 5 Plus (энкод + SRT)
+  C1:  3W-3.60W  — Orange Pi 5 Plus (энкод + SRT)
   A:   1.70W  — Sony AS300 (charging + live mode)
   ──────
   Σ:   5.30W
